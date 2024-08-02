@@ -1,10 +1,10 @@
- {
+ *{
     margin: 0;
     padding: 0;
 }
 
 .cabecalho {
-    background-color: #da8cee;
+    background-color: #bf70d3;
     color: rgb(15, 9, 15);
     display: flex;
     justify-content: space-around;
@@ -22,12 +22,14 @@
     font-size: 20px;
 }
 
+
+
 .escola-imagem{
-    width: 25%;
+    width: 15%;
 }
 
 .escola{
-    background-image: linear-gradient(#e48afa,#d16bd1);
+    background-image: linear-gradient(#9b49af,#9a56af);
     color:rgb(10, 7, 7);
     display: flex;
     justify-content: center;
@@ -42,9 +44,13 @@
     padding: 24px 0;
 }
 
+
+
 .estudante{
     padding: 24px 0;
+    background-color: rgba(136, 66, 163, 0.986);
 }
+
 .estudante-imagem{
     width: 120px;
 }
@@ -69,8 +75,10 @@
     grid-template-columns: 20% 20% 20% 20% 20%;
 }
 
+
+
 .rodape{
-    background-color: black;
+    background-color: rgb(120, 23, 145);
     text-align: center;
 }
 
